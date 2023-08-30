@@ -1,21 +1,34 @@
 {
-  "name": "wp-it-volunteers",
+  "name": "gulp-start",
   "version": "1.0.0",
-  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaMostova/gulp-start.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinaMostova/gulp-start/issues"
+  },
+  "homepage": "https://github.com/MarinaMostova/gulp-start#readme",
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  },
   "devDependencies": {
+    "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-changed": "^4.0.3",
+    "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-newer": "^1.4.0",
     "gulp-sass": "^5.1.0",
     "gulp-uglify-es": "^3.0.0",
-    "sass": "^1.63.6"
+    "sass": "^1.63.6",
+    "swiper": "^9.4.1"
   }
 }
